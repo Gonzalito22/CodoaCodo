@@ -17,33 +17,19 @@
 }
 
 
-#imagen1{
+#imagen1, #imagen2, #imagen3{
     filter: brightness(40%);
     width: 100%;
     height: 100%;
 }
 
-.contenedor{
-    display: flex;
-    position: relative;
-    justify-content: end;
-    text-align: right;
-}
-
-.texto-encima{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+.carousel-caption{
     text-align: end;
-    margin-top: 350px;
     color: white;
-    margin-right: 4em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    margin-right: -70px;
 }
 
 .btn-toolbar{
-    position: absolute;
     margin-top: 200px;
     padding: 15px;
     width: 600px;
@@ -59,8 +45,7 @@ button{
 .conocer{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
-    
+    margin-top: 15px; 
 }
 
 .oradores{
@@ -86,7 +71,7 @@ button{
     height: auto;
 }
 
-#imagen2{
+#imagen4{
     width: 100%;
     height: 100%;     
 }
