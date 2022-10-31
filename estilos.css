@@ -1,175 +1,239 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: 0%;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0%;
 }
 
-.nav-item{
-    font-family:Arial, Helvetica, sans-serif;
-    }
-
-#compra{
-    color: green;
+.nav-item {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#conferencia{
-    color: white;
+#compra {
+  color: green;
+}
+
+#conferencia {
+  color: white;
+}
+
+#imagen1,
+#imagen2,
+#imagen3 {
+  filter: brightness(40%);
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  text-align: end;
+  color: white;
+  margin-right: -70px;
+}
+
+.btn-toolbar {
+  margin-top: 200px;
+  padding: 15px;
+  width: 600px;
+  display: flex;
+  justify-content: right;
+  margin-left: -25px;
+}
+
+button {
+  margin: 0px 0px 0px 10px;
+}
+
+.conocer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.oradores {
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  margin: 5px;
+}
+
+.lugar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  height: auto;
+}
+
+#imagen4 {
+  width: 100%;
+  height: 100%;
+}
+
+.texto-lateral {
+  background-color: rgb(48, 47, 47);
+  color: white;
+  margin-left: 1px;
+  padding: 15px 15px 0 15px;
+  width: 150%;
+  font-size: 12.8px;
+}
+
+#btnconocemas {
+  background-color: rgb(48, 47, 47);
+  margin-left: 1px;
+  border-color: white;
+}
+
+div.conocer {
+  font-size: 11px;
+}
+
+h6 {
+  font-size: 30px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+textarea {
+  margin-top: 20px;
+}
+
+#recordatorio {
+  font-size: 13px;
+  color: rgb(180, 180, 180);
+}
+
+#btnformulario {
+  margin-left: 25%;
+  background-color: rgb(110, 194, 14);
+  margin-top: 10px;
+  border: none;
+  height: 40px;
+}
+
+#btnBorrar, #btnResumen {
+  background-color: rgb(110, 194, 14);
+  margin-top: 10px;
+  border: none;
+  height: 40px;
+}
+
+.pie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(20, 67, 99);
+  color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+div.col-1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#btnjs {
+  border-radius: 10%;
+  color: rgba(8, 8, 8, 0.788);
+  font-size: small;
+  font-weight: bold;
+  padding: 1px;
+  margin-left: 0px;
+}
+
+#btnreact,
+#btnnegocios,
+#btnstartups {
+  border-radius: 10%;
+  color: rgb(255, 255, 255);
+  font-size: small;
+  font-weight: bold;
+  padding: 2px;
+  margin-left: 0px;
 }
 
 
-#imagen1, #imagen2, #imagen3{
-    filter: brightness(40%);
-    width: 100%;
-    height: 100%;
+
+.container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 40px;
+height: 200px;
+align-items: center;
+
 }
 
-.carousel-caption{
-    text-align: end;
-    color: white;
-    margin-right: -70px;
+#box1{
+  border: solid;
+  border-width: 1px;
+  border-color: blue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-.btn-toolbar{
-    margin-top: 200px;
-    padding: 15px;
-    width: 600px;
-    display: flex; 
-    justify-content: right;
-    margin-left: -25px;
+#box2{
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(0, 153, 255);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-button{
-    margin: 0px 0px 0px 10px;
+#box3{
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(255, 208, 0);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-.conocer{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px; 
+#correo{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.oradores{
-    display: flex;
-    justify-content: center;
-    margin-top: -15PX;
+.form-select{
+  padding: 7px;
+  width: 316px;
+  border-color: rgb(190, 190, 190);
 }
-
-.cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.card{
-    margin: 5px;
-}
-
-.lugar{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25PX;
-    height: auto;
-}
-
-#imagen4{
-    width: 100%;
-    height: 100%;     
-}
-
-.texto-lateral{
-    background-color: rgb(48, 47, 47);
-    color: white;
-    margin-left: 1px;
-    padding: 15px 15px 0 15px;
-    width: 150%;
-    font-size:12.8px;
-}
-
-#btnconocemas{
-    background-color: rgb(48, 47, 47);
-    margin-left: 1px;
-    border-color: white;
-}
-
-div.conocer{
-    font-size: 11px;
-}
-
-h6{
-    font-size: 30px;
-}
-
-.formulario{
-    display: flex;
-    justify-content: center;
-    
-}
-
-span{
-    text-decoration:underline;
-    text-decoration-style: dotted;
-    
-}
-
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-textarea{
-    margin-top: 20px;
-}
-
-#recordatorio{
-    font-size: 13px;
-    color: rgb(180, 180, 180);
-}
-
-#btnformulario{
-    margin-left: 25%;  
-    background-color: rgb(110, 194, 14); 
-    margin-top: 10px; 
-    border: none;
-    height: 40px;
-}
-
-.pie{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: rgb(20, 67, 99);
-    color: white;
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    
-}
-
-div.col-1{
-    display: flex;
-    text-align: center;
-    align-items: center;
-       
-}
-
-#btnjs{
-    border-radius: 10%;
-    color: rgba(8, 8, 8, 0.788);
-    font-size: small;
-    font-weight: bold;
-    padding: 1px;
-    margin-left: 0px;  
-}
-
-#btnreact, #btnnegocios, #btnstartups {
-    border-radius: 10%;
-    color: rgb(255, 255, 255);
-    font-size: small;
-    font-weight: bold;
-    padding: 2px;
-    margin-left: 0px;  
-}
-

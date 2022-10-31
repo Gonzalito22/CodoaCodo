@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./estilos.css">
+    <title>TP INTEGRADOR 2 JS</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark"> 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./imagenes/codoacodo.png" alt="Logo" width="100" height="60" class="d-inline-block align-text">
+            Conf Bs As
+          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" id="conferencia">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" id="compra">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<div class="container">
+  <div class="col-2.5" id="box1">
+    <h5>Estudiante</h5>
+    <p>Tiene un descuento</p>
+    <h5>80%</h5>
+    <p>* presentar documentación</p>
+
+  </div>
+
+  <div class="col-2.5" id="box2">
+    <h5>Trainee</h5>
+    <p>Tiene un descuento</p>
+    <h5>50%</h5>
+    <p>* presentar documentación</p>
+
+  </div>
+
+  <div class="col-2.5" id="box3">
+    <h5>Junior</h5>
+    <p>Tiene un descuento</p>
+    <h5>15%</h5>
+    <p>* presentar documentación</p>
+
+  </div>
+</div>
+
+
+      <div class="conocer"><p>VENTA</p></div>
+      <div class="oradores"><H6>VALOR DE TICKET $200</H6></div>
+
+    <form>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre">
+            </div>
+            <div class="col-3">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido">
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+            <input type="text" class="form-control" placeholder="Correo" aria-label="Correo" id="correo">
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+              <label for="nombre" class="form-label">Cantidad</label>
+              <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidad">
+              
+            </div>
+            <div class="col-3">
+              <label for="nombre" class="form-label">Categoría</label><br>
+              <select class="form-select" aria-label="Default select example" id="categoria">
+                <option value="1">Estudiante</option>
+                <option value="2">Trainee</option>
+                <option value="3">Junior</option>
+              </select>
+              </select>
+              </select>
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-3"></div>
+          <div class="col-6">
+              <div class="alert alert-primary" role="alert" id="totalPagar"></div>
+          </div>
+          <div class="col-3"></div>
+        </div>    
+
+
+        <div class="row">
+            <button class="btn btn-success col-3" type="reset" id="btnBorrar">Borrar</button>
+            <button class="btn btn-success col-3" type="button" id="btnResumen">Resumen</button>
+        </div>    
+    </form>
+
+      <footer>
+        <div class="pie">
+          <div class="col-1.5"></div>
+          <div class="col-1">
+          <a>Preguntas frecuentes</a>
+          </div> 
+          <div class="col-1">
+          <a>Contáctanos</a>
+          </div> 
+          <div class="col-1">
+          <a>Prensa</a>
+          </div> 
+          <div class="col-1">
+          <a>Conferencias</a>
+          </div> 
+          <div class="col-1">
+          <a>Términos y condiciones</a>
+          </div> 
+          <div class="col-1">
+          <a>Privacidad</a>
+          </div> 
+          <div class="col-1">
+          <a>Estudiantes</a>
+          </div> 
+          <div class="col-1.5"></div>
+        </div>  
+      </footer>
+
+      <script type="text/javascript" src="./logica.js"></script>
+     
+</body>
+</html>
